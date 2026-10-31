@@ -101,3 +101,4 @@ export async function initDatabase() {
   await db.execute(`CREATE INDEX IF NOT EXISTS idx_order_items_order ON order_items(order_id);`);
   await db.execute(`CREATE INDEX IF NOT EXISTS idx_order_items_farmer ON order_items(farmer_id);`);
 }
+

@@ -189,3 +189,4 @@ export default function ProductCard({ product, onSelectDetails }) {
     </div>
   );
 }
+

@@ -92,3 +92,4 @@ Tested via live REST HTTP calls against `http://localhost:5000`:
 | `/api/orders/:id/status`| PATCH | `{"status": "cancelled"}` | `200 OK` | Order marked cancelled, stock restored 798 ➔ 800 |
 | `/api/admin/stats` | GET | Admin Auth Bearer | `200 OK` | Total GMV, product counts, and user metrics returned |
 | `/api/trends` | GET | None | `200 OK` | Mandi benchmarks, buyer savings %, farmer gains % |
+

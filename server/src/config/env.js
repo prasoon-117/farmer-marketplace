@@ -16,3 +16,4 @@ export const config = {
   JWT_EXPIRES_IN: process.env.JWT_EXPIRES_IN || '7d',
   DB_URL: process.env.DATABASE_URL || `file:${path.resolve(__dirname, '../../data/marketplace.db')}`,
 };
+

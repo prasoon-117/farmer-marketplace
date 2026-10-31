@@ -384,3 +384,4 @@ export default function Navbar({ currentView, setCurrentView, openAuthModal }) {
     </header>
   );
 }
+

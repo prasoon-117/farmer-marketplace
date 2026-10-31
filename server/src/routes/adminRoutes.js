@@ -18,3 +18,4 @@ router.patch('/products/:id/moderate', moderateProduct);
 router.get('/users', getAllUsers);
 
 export default router;
+

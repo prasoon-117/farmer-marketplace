@@ -64,3 +64,4 @@ export const api = {
   // Price trends
   getPriceTrends: () => request('/trends'),
 };
+

@@ -331,3 +331,4 @@ export default function CartDrawer({ onOrderSuccess, openAuthModal }) {
     </div>
   );
 }
+

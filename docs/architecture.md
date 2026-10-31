@@ -198,3 +198,4 @@ erDiagram
    - Realistic simulated escrow & cash-on-pickup payment workflows.
    - Passwords protected via salted bcrypt hashes.
    - Stateless JWT tokens for authentication.
+

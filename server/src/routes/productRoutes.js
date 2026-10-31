@@ -26,3 +26,4 @@ router.put('/:id', authenticateToken, requireRole('farmer', 'admin'), updateProd
 router.delete('/:id', authenticateToken, requireRole('farmer', 'admin'), deleteProduct);
 
 export default router;
+

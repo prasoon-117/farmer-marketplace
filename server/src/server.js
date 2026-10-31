@@ -71,3 +71,4 @@ export { app };
 if (process.argv[1]?.endsWith('server.js')) {
   startServer();
 }
+

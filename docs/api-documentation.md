@@ -345,3 +345,4 @@ Provides comparative pricing data between Direct Farm Gate, Mandi APMC rates, an
 
 - **Access**: Public
 - **Response `200 OK`**
+

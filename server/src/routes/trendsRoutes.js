@@ -6,3 +6,4 @@ const router = express.Router();
 router.get('/', getPriceTrends);
 
 export default router;
+

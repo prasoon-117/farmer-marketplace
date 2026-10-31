@@ -284,3 +284,4 @@ npm test
 - **Photography**: Agricultural produce imagery courtesy of [Unsplash](https://unsplash.com/)
 - **Database Engine**: [LibSQL / SQLite](https://github.com/tursodatabase/libsql-client-ts)
 - **Faculty & Hackathon Committee**: For problem statement guidance and evaluation criteria.
+

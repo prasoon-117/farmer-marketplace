@@ -74,3 +74,4 @@
 > *"In conclusion, KisanSetu delivers a production-grade, tested, and fully functional prototype solving HACK-P309. It empowers farmers with direct market access, gives buyers guaranteed harvest transparency, and enforces strict inventory safety.  
 > The complete source code, test evidence, documentation, and architecture diagrams are maintained in our GitHub repository.  
 > Thank you for your time and evaluation!"*
+
