@@ -14,7 +14,7 @@
 - **Team Name:** AgriInnovators
 - **Team Details (4 Members):**
   - Member 1 (Lead): D Prasoon | Roll: 25MVCAIR0032
-  - Member 2: B Aswith Reddy | Roll: 25MVCAIR0018
+  - Member 2: B Ashwith Reddy | Roll: 25MVCAIR0018
   - Member 3: A Snehith | Roll: 25MVCAIR0007
   - Member 4: G Vinay | Roll: 25MVCAIR0040
 - **Faculty Mentor:** Department of Computer Science & Engineering

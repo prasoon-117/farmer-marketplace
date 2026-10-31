@@ -261,7 +261,7 @@ npm test
 | Member Name | Roll Number | Primary Contributions |
 |---|---|---|
 | **D Prasoon** (Team Lead) | `25MVCAIR0032` | Backend Architecture, Express APIs, Stock Validation Logic, SQLite Schema Design |
-| **B Aswith Reddy** | `25MVCAIR0018` | React Frontend Architecture, Vite Setup, Tailwind UI Components, Cart Drawer |
+| **B Ashwith Reddy** | `25MVCAIR0018` | React Frontend Architecture, Vite Setup, Tailwind UI Components, Cart Drawer |
 | **A Snehith** | `25MVCAIR0007` | Automated Test Suite (`tests/`), Database Seeding, Postman Collection, Testing Evidence |
 | **G Vinay** | `25MVCAIR0040` | Admin Moderation, Mandi Price Benchmark Module, Multilingual i18n, Presentation & Docs |
 
