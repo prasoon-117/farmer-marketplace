@@ -1,9 +1,12 @@
+
 import { createClient } from '@libsql/client';
 import { config } from '../config/env.js';
 
 export const db = createClient({
   url: config.DB_URL,
+  authToken: config.DB_AUTH_TOKEN,
 });
+
 
 export async function initDatabase() {
   // Create users table
