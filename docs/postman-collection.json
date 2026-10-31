@@ -1,0 +1,177 @@
+{
+  "info": {
+    "_postman_id": "hack-p309-farmer-marketplace-api",
+    "name": "HACK-P309 - Farmer Marketplace API",
+    "description": "Postman Collection for testing HACK-P309 Farmer Marketplace REST API.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/health",
+          "host": ["{{base_url}}"],
+          "path": ["health"]
+        }
+      }
+    },
+    {
+      "name": "Auth - Demo Login (Farmer)",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"role\": \"farmer\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/auth/demo-login",
+          "host": ["{{base_url}}"],
+          "path": ["auth", "demo-login"]
+        }
+      }
+    },
+    {
+      "name": "Auth - Demo Login (Buyer)",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"role\": \"buyer\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/auth/demo-login",
+          "host": ["{{base_url}}"],
+          "path": ["auth", "demo-login"]
+        }
+      }
+    },
+    {
+      "name": "Products - Get All (with Filters)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/products?category=Vegetables&inStockOnly=true",
+          "host": ["{{base_url}}"],
+          "path": ["products"],
+          "query": [
+            { "key": "category", "value": "Vegetables" },
+            { "key": "inStockOnly", "value": "true" }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Products - Create Listing (Farmer)",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Authorization", "value": "Bearer {{token}}" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Alphonso Ratnagiri Mangoes\",\n  \"category\": \"Fruits\",\n  \"description\": \"Export-grade naturally ripened sweet mangoes.\",\n  \"unit\": \"dozen\",\n  \"price\": 850,\n  \"available_quantity\": 50,\n  \"harvest_date\": \"2026-10-31\",\n  \"pickup_available\": 1,\n  \"delivery_available\": 1,\n  \"organic_certified\": 1\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/products",
+          "host": ["{{base_url}}"],
+          "path": ["products"]
+        }
+      }
+    },
+    {
+      "name": "Orders - Place Order (Buyer)",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Authorization", "value": "Bearer {{token}}" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"items\": [\n    { \"productId\": 55, \"quantity\": 5 }\n  ],\n  \"deliveryOption\": \"pickup\",\n  \"paymentMethod\": \"cash_on_pickup\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/orders",
+          "host": ["{{base_url}}"],
+          "path": ["orders"]
+        }
+      }
+    },
+    {
+      "name": "Orders - Update Status (Farmer / Admin)",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Authorization", "value": "Bearer {{token}}" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"status\": \"accepted\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/orders/1/status",
+          "host": ["{{base_url}}"],
+          "path": ["orders", "1", "status"]
+        }
+      }
+    },
+    {
+      "name": "Orders - Cancel Order (Restores Stock)",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Authorization", "value": "Bearer {{token}}" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"status\": \"cancelled\",\n  \"cancellationReason\": \"Postman verification of inventory restoration\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/orders/1/status",
+          "host": ["{{base_url}}"],
+          "path": ["orders", "1", "status"]
+        }
+      }
+    },
+    {
+      "name": "Admin - Moderation Stats",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "Authorization", "value": "Bearer {{admin_token}}" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/admin/stats",
+          "host": ["{{base_url}}"],
+          "path": ["admin", "stats"]
+        }
+      }
+    },
+    {
+      "name": "Trends - Mandi Price Benchmarks",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/trends",
+          "host": ["{{base_url}}"],
+          "path": ["trends"]
+        }
+      }
+    }
+  ],
+  "variable": [
+    { "key": "base_url", "value": "http://localhost:5000/api" },
+    { "key": "token", "value": "" },
+    { "key": "admin_token", "value": "" }
+  ]
+}
