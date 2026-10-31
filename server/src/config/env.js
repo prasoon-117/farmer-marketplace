@@ -15,5 +15,6 @@ export const config = {
   JWT_SECRET: process.env.JWT_SECRET || 'farmer-marketplace-jwt-secret-p309-secure',
   JWT_EXPIRES_IN: process.env.JWT_EXPIRES_IN || '7d',
   DB_URL: process.env.DATABASE_URL || `file:${path.resolve(__dirname, '../../data/marketplace.db')}`,
+  DB_AUTH_TOKEN: process.env.DB_AUTH_TOKEN,
 };
 
