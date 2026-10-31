@@ -12,7 +12,7 @@
 
 > **Speaker 1 (Team Lead):**  
 > *"Hello respected evaluators and faculty members. Welcome to the demonstration of our Backend Web Development hackathon project: **KisanSetu — Farmer Marketplace**, addressing problem statement **HACK-P309** in the Agriculture domain.  
-> Our team comprises four members: Priyanshu Sharma as Team Lead, Ananya Sundaram, Rajesh Patel, and Vikram Verma.  
+> Our team comprises four members: D Prasoon as Team Lead, B Aswith Reddy, A Snehith, and G Vinay.  
 > The core problem we are solving is the market friction faced by regional farmers who lose significant margins to commission middlemen, while consumers pay inflated prices without knowing harvest freshness or origin authenticity. Our solution provides an online direct marketplace with transparent pricing, batch traceability, and a strict order lifecycle."*
 
 ---

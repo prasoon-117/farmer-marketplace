@@ -13,10 +13,10 @@
 - **Subject:** Backend Web Development
 - **Team Name:** AgriInnovators
 - **Team Details (4 Members):**
-  - Member 1 (Lead): Priyanshu Sharma | Roll: 21BCE1001 | Branch: CSE | Section: A
-  - Member 2: Ananya Sundaram | Roll: 21BCE1002 | Branch: CSE | Section: A
-  - Member 3: Rajesh Patel | Roll: 21BCE1003 | Branch: CSE | Section: A
-  - Member 4: Vikram Verma | Roll: 21BCE1004 | Branch: CSE | Section: A
+  - Member 1 (Lead): D Prasoon | Roll: 25MVCAIR0032
+  - Member 2: B Aswith Reddy | Roll: 25MVCAIR0018
+  - Member 3: A Snehith | Roll: 25MVCAIR0007
+  - Member 4: G Vinay | Roll: 25MVCAIR0040
 - **Faculty Mentor:** Department of Computer Science & Engineering
 
 ---

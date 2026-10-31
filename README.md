@@ -258,12 +258,12 @@ npm test
 
 ## 15. Team Members & Contributions
 
-| Member Name | Roll Number | Branch & Section | Primary Contributions |
-|---|---|---|---|
-| **Priyanshu Sharma** (Lead) | `21BCE1001` | CSE - Section A | Backend Architecture, Express APIs, Stock Validation Logic, SQLite Schema Design |
-| **Ananya Sundaram** | `21BCE1002` | CSE - Section A | React Frontend Architecture, Vite Setup, Tailwind UI Components, Cart Drawer |
-| **Rajesh Patel** | `21BCE1003` | CSE - Section A | Automated Test Suite (`tests/`), Database Seeding, Postman Collection, Testing Evidence |
-| **Vikram Verma** | `21BCE1004` | CSE - Section A | Admin Moderation, Mandi Price Benchmark Module, Multilingual i18n, Presentation & Docs |
+| Member Name | Roll Number | Primary Contributions |
+|---|---|---|
+| **D Prasoon** (Team Lead) | `25MVCAIR0032` | Backend Architecture, Express APIs, Stock Validation Logic, SQLite Schema Design |
+| **B Aswith Reddy** | `25MVCAIR0018` | React Frontend Architecture, Vite Setup, Tailwind UI Components, Cart Drawer |
+| **A Snehith** | `25MVCAIR0007` | Automated Test Suite (`tests/`), Database Seeding, Postman Collection, Testing Evidence |
+| **G Vinay** | `25MVCAIR0040` | Admin Moderation, Mandi Price Benchmark Module, Multilingual i18n, Presentation & Docs |
 
 ---
 
