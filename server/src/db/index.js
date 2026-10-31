@@ -9,6 +9,9 @@ export const db = createClient({
 
 
 export async function initDatabase() {
+  await db.execute('SELECT 1');
+console.log('TURSO CONNECTION SUCCESSFUL');
+  
   // Create users table
   await db.execute(`
     CREATE TABLE IF NOT EXISTS users (
